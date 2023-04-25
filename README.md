@@ -19,18 +19,18 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository**
 
-  git clone https://github.com/your-username/todo-list-app.git
-  cd todo-list-app
+   git clone https://github.com/your-username/todo-list-app.git
+   cd todo-list-app
 
-  Replace `your-username` with your GitHub username.
+   Replace `your-username` with your GitHub username.
 
 2. **Install dependencies**
 
-  npm install
+   npm install
 
 3. **Start the development server**
 
-  npm start
+   npm start
 
 The application will now be running at [http://localhost:3000](http://localhost:3000).
 
