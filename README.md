@@ -1,4 +1,4 @@
-# To-Do List React
+# To-Do List App
 
 A simple to-do list application built using React, showcasing the use of hooks such as useState and useEffect.
 
