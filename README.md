@@ -17,22 +17,25 @@ A simple to-do list application built using React, showcasing the use of hooks s
 
 Follow these steps to set up and run the project locally:
 
-1. **Clone the repository**
+1. **Clone the repository:**
 
-   git clone https://github.com/your-username/todo-list-app.git
-   cd todo-list-app
-
+   git clone https://github.com/your-username/To-Do-List-React.git
+   
    Replace `your-username` with your GitHub username.
 
-2. **Install dependencies**
+2. **Change to the project directory:**
+   
+   cd To-Do-List-React
+   
+3. **Install dependencies:**
 
    npm install
 
-3. **Start the development server**
+4. **Start the development server:**
 
    npm start
 
-The application will now be running at [http://localhost:3000](http://localhost:3000).
+5. **The application will now be running at [http://localhost:3000](http://localhost:3000).**
 
 ## Future Improvements
 
