@@ -7,8 +7,8 @@ This is a simple, interactive to-do list application built using React. It showc
 
 - Add tasks to the list
 - Delete tasks from the list
-- Mark tasks as completed and toggle their status
 - Edit the description of existing tasks
+- Mark tasks as completed and toggle their status, visually represented by a strikethrough
 - Persist tasks in the browser using 'localStorage'
 
 ## Prerequisites

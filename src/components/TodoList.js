@@ -62,7 +62,11 @@ const TodoList = () => {
       <ul>
         {todos.map((todo, index) => (
           <li key={index}>
-            <input type="checkbox" checked={todo.completed} onChange={() => toggleTodo(index)} />
+            <input
+                type="checkbox"
+                checked={todo.completed}
+                onChange={() => toggleTodo(index)} 
+            />
 
             {todo.isEditing ? (
               <input 
@@ -72,7 +76,9 @@ const TodoList = () => {
                 onKeyDown={event => event.key === 'Enter' ? updateTodo(index) : null}
               />
             ) : (
-              <span>{todo.text}</span>
+              <span style={{ textDecoration: todo.completed ? "line-through" : "none" }}>
+                {todo.text}
+              </span>
             )}
 
             <button onClick={() => editTodo(index)}>Edit</button>
