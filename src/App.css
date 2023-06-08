@@ -17,7 +17,7 @@
     border-radius: 4px;
     outline: none;
   }
-  
+
   ul {
     list-style: none;
     padding: 0;
@@ -30,6 +30,15 @@
   
   li:last-child {
     border-bottom: none;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-button {
+    background-color: blue;
   }
   
   button {
