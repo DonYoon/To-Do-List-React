@@ -81,7 +81,7 @@ const TodoList = () => {
               </span>
             )}
 
-            <button onClick={() => editTodo(index)}>Edit</button>
+            <button className="button2" onClick={() => editTodo(index)}>Edit</button>
             <button onClick={() => deleteTodo(index)}>Delete</button>
           </li>
         ))}
