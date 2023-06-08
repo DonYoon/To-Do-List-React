@@ -1,12 +1,15 @@
 # To-Do List App
 
-A simple to-do list application built using React, showcasing the use of hooks such as useState and useEffect.
+This is a simple, interactive to-do list application built using React. It showcases the use of React hooks such as useState and useEffect to manage state and side effects in functional components.
+
 
 ## Features
 
 - Add tasks to the list
 - Delete tasks from the list
-- Persist tasks in the browser using localStorage
+- Mark tasks as completed and toggle their status
+- Edit the description of existing tasks
+- Persist tasks in the browser using 'localStorage'
 
 ## Prerequisites
 
@@ -36,9 +39,3 @@ Follow these steps to set up and run the project locally:
    npm start
 
 5. **The application will now be running at [http://localhost:3000](http://localhost:3000).**
-
-## Future Improvements
-
-- Add the ability to edit tasks
-- Implement task filtering (e.g., show only incomplete tasks)
-- Allow tasks to be marked as completed
