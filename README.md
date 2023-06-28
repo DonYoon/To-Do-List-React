@@ -22,9 +22,7 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository:**
 
-   git clone https://github.com/your-username/To-Do-List-React.git
-   
-   Replace `your-username` with your GitHub username.
+   git clone https://github.com/DonYoon/To-Do-List-React.git
 
 2. **Change to the project directory:**
    
